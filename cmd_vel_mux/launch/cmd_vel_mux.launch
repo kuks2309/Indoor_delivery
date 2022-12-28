@@ -1,0 +1,9 @@
+<launch>
+
+  <include file ="$(find xbox_joy_cmd_vel)/launch/x360.launch"/> 
+
+  <node pkg="cmd_vel_mux" type="cmd_vel_mux_node" name="cmd_mux_node" output="screen">
+  </node> 
+  
+ 
+</launch>
